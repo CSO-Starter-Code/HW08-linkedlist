@@ -31,7 +31,7 @@ unsigned long ll_length(ll_node *list);
 
 /**
  * Given a pointer to a node in a list, returns a pointer to the first node
- * at or after that node which has the given `value`. If given `NULL`, or
+ * at or *before* that node which has the given `value`. If given `NULL`, or
  * if no such node exists, returns `NULL`.
  */
 ll_node *ll_find(ll_node *list, int value);
