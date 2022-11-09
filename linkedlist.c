@@ -112,7 +112,7 @@ int main(int argc, const char *argv[]) {
     x = ll_remove(x);
     putchar('H'); ll_show(x);
     putchar('I'); ll_show(y);
-    x = ll_remove(ll_find(y, 98));
+    x = ll_remove(ll_find(ll_tail(y), 98));
     putchar('J'); ll_show(x);
     putchar('K'); ll_show(y);
 
