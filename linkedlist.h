@@ -1,7 +1,7 @@
 #ifndef __LINKEDLIST_H
 #define __LINKEDLIST_H
 
-/**
+/** 
  * A doubly linked-list node.
  */
 typedef struct ll_node_s {
